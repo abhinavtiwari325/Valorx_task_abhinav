@@ -1,0 +1,5 @@
+<p>Parent Component</p>
+<p>Primitive: {{primitiveData}}</p>
+<p>Non-Primitive:  {{nonPrimitiveData.name}}</p>
+<button (click)="update()">update Data</button>
+<app-child [data]="nonPrimitiveData"></app-child>
